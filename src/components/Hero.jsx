@@ -3,6 +3,7 @@ import Image from "next/image";
 
 const getData = async () => {
     const res = await fetch(`${process.env.BASEURL}/api/HeroList`);
+
     if(!res.ok){
         throw new Error("HeroList calling Fail")
     }
@@ -13,6 +14,7 @@ const getData = async () => {
 
 const Hero = async () => {
     const data = await getData();
+    console.log(data)
     return (
         <div className="bg-gradient py-5">
             <div className="container ">
