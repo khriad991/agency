@@ -24,4 +24,11 @@ body {
     .title{
         @apply text-green3 text-xl font-medium uppercase
     }
+    .centerFlex{
+        @apply flex justify-center items-center
+    }
+    .myTransition{
+        @apply transition-all duration-300 ease-in-out
+    }
+
 }
