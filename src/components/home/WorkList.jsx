@@ -1,7 +1,8 @@
 import React from 'react';
 import {TbMessageCircleBolt} from "react-icons/tb";
 import Link from "next/link";
-import SectionTitle from "@/components/SectionTitle";
+import SectionTitle from "@/components/home/SectionTitle";
+import {IoArrowForward} from "react-icons/io5";
 
 const getData = async () => {
     const res = await fetch(`${process.env.BASEURL}/api/WorkList`)
@@ -33,9 +34,7 @@ const WorkList =async () => {
                                     <p className="text-lg font-normal text-black mb-8 ">{item["des"]}</p>
                                     <Link className="flex justify-start items-center gap-x-1 hover:gap-x-3 myTransition duration-300 text-lg" href="#">
                                         Learn more
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 18 17" fill="none">
-                                            <path d="M10 1.83331L17 8.83331L10 15.8333M1 8.83331H17H1Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
+                                        <IoArrowForward />
                                     </Link>
                                 </div>
                             ))}

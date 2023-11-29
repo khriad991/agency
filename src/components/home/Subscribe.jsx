@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Subcribe = () => {
+const Subscribe = () => {
     return (
         <div className="bg-white py-12">
             <div className="container flex justify-center items-center">
@@ -23,4 +23,4 @@ const Subcribe = () => {
     );
 };
 
-export default Subcribe;
+export default Subscribe;

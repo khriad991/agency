@@ -5,16 +5,16 @@ import Image from "next/image";
 import {LuMenu} from "react-icons/lu";
 import {AiOutlineClose} from "react-icons/ai";
 
-const NavBar = () => {
+const NavBar = ({bg}) => {
     const [menu ,setMenu]= useState(true)
     const handleMenu = () => {
         setMenu(!menu)
     }
     return (
-        <div className="bg-gradient sticky top-0 left-0 w-full ">
+        <div className={`${bg} sticky top-0 left-0 w-full z-[9999]`}>
             <div className="container">
                 <div className='flex-1 flex justify-between items-center  '>
-                    <Link className={menu ? "md:block": "hidden md:block"}  href='/'>
+                    <Link className={menu ? "md:block": "hidden md:block"}  href='/my-project/exam-1/agency-app/public'>
                         <Image src="/assets/logo.png" alt="logo" width={176} height={50}/>
                     </Link>
                    <nav className='flex-[2] relative'>

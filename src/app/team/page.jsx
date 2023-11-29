@@ -1,10 +1,15 @@
 import React from 'react';
+import Subscribe from "@/components/home/Subscribe";
+import ChildHero from "@/components/Team/ChildHero";
+import TeamMember from "@/components/Team/TeamMember";
 
 const Page = () => {
     return (
-        <div>
-            <h1>This is From Page</h1> 
-        </div>
+        <>
+            <ChildHero heading="out team"/>
+            <TeamMember/>
+            <Subscribe/>
+        </>
     );
 };
 

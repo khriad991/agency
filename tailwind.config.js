@@ -10,7 +10,7 @@ module.exports = {
       sm: '640px',
       md: '909px',
       lg: '1124px',
-      xl: '1340px',
+      xl: '1380px',
     },
     extend: {
       container: {
@@ -39,6 +39,14 @@ module.exports = {
       },
       backgroundImage: {
         'gradient': 'linear-gradient(180deg, #D7F5DC 0%, #D7F5DC 100%)',
+      },
+      fontFamily: {
+        jakarta: ['Plus Jakarta Sans', 'Poppins', 'sans-serif'],
+        avenir: ['Avenir', 'Plus Jakarta Sans', 'Poppins'],
+      },
+      boxShadow: {
+        '3xl': '4px 9px 20px 0px rgba(0, 0, 0, 0.07)',
+        '4xl': '0px 4.4px 20px -1px rgba(19, 16, 34, 0.05)',
       },
     },
   },

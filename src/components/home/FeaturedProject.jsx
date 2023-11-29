@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import SectionTitle from "@/components/SectionTitle";
+import SectionTitle from "@/components/home/SectionTitle";
 
 const getData = async () => {
     const res = await fetch(`${process.env.BASEURL}/api/FeaturedProject`)
@@ -20,7 +20,7 @@ const FeaturedProject = async  () => {
                     name="featured project"
                     title="We provide the Perfect Solution to your business growth"
                 />
-                <div className="flex justify-between flex-wrap lg:flex-nowrap gap-y-8 gap-x-5 mt-4">
+                <div className="flex justify-between flex-wrap lg:flex-nowrap gap-y-8 gap-x-5 mt-4 pt-2 pb-8">
                     <div className="w-full lg:w-1/2 flex justify-start items-start">
                         <Image className="w-full object-cover w-[600px] h-[530px] rounded-2xl" width={600} height={530} src={data["0"]["image"]} alt=""/>
                     </div>

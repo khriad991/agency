@@ -1,10 +1,13 @@
 import React from 'react';
+import ChildHero from "@/components/Team/ChildHero";
+import Subscribe from "@/components/home/Subscribe";
 
 const Page = () => {
     return (
-        <div>
-            <h1>This is From Page</h1> 
-        </div>
+        <>
+          <ChildHero/>
+          <Subscribe/>
+        </>
     );
 };
 

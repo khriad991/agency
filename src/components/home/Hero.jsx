@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BrandList from "@/components/BrandList";
+import BrandList from "@/components/home/BrandList";
 
 const getData = async () => {
     const res = await fetch(`${process.env.BASEURL}/api/HeroList`);
