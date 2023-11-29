@@ -14,23 +14,72 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Click Link [vercel Denloy](https://agency-ruby.vercel.app/) On Yoru browser to see the result.
 
-You can start editing the page by modifying `app/page.jsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Assignment 1 : is  Creating a Agency Web Application
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+#### Requirements:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* From this figma file you need to convert to nextjs.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##### You can use any framework for CSS 
+- ###### TailwindCSS
 
-## Deploy on Vercel
+##### Hero section information on homepage will be dynamic and images will come dynamically
+* ###### Hero Section data is Dynamic
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##### The WorkList data will come dynamically on the homepage
+* ###### WorkList Section data is Dynamic
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+##### The StatList data will come dynamically on the homepage
+* ###### StatList Section data is Dynamic
+
+##### The FeaturedProject data will come dynamically on the homepage####
+* ###### Featured Project Section data is Dynamic
+
+##### Other sections on the homepage will be static.
+* ###### Other [ NavBar , footer & Subscribe ] Section data is static
+
+##### The TeamList data will come dynamically on the Team Page
+* ###### TeamList Section data is Dynamic
+
+##### Other sections on the Team Page will be static
+* ###### Other [ NavBar , footer & Subscribe ] Section data is static
+
+##### AllService data will come dynamically on Service Page
+* ###### AllService Section data is Dynamic
+
+##### Other sections on Service Page will be static.
+* ###### Other [ NavBar , footer & Subscribe ] Section data is static
+
+##### AllProject data will come dynamically on the Project Page
+* ###### AllProject Section data is Dynamic
+
+##### Other sections on the Project Page will be static.
+* ###### Other [ NavBar , footer & Subscribe ] Section data is static
+
+##### The TestimonialList data will come dynamically on the Testimonial Page.
+* ###### TestimonialList Section data is Dynamic
+
+##### Other sections on the Testimonial Page will be static.
+* ###### Other [ NavBar , footer & Subscribe ] Section data is static
+
+### !! Responsive in as Up comming
+
+
+
+
+### design Resurce
+<a href="https://documenter.getpostman.com/view/9518923/2s9YCAQqCn">API Documention </a>
+
+Figma Template Link : https://www.figma.com/file/LXMrQdg2ayTqxvXhASl2yi/Design-Agency-Web-Landing-Page-(Community)?type=design&node-id=0-1&mode=design&t=EgWrVF3e7Z8NAoy2-0
+
+Google Drive Link: https://drive.google.com/file/d/1BxhRIJOZPGh8pcqqc_dXlh0OwL_RIm8k/view?usp=sharing
+
+Open the Figma file. See the screenshot of how to get it  https://prnt.sc/HQfbfrr9vRIh  ||  Here are two links, one is the direct link to the official website. And another link to provide the Figma file in Google Drive. After opening the Figma file you will find a total of Five pages.
+
+
+
+
