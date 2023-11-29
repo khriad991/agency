@@ -11,10 +11,10 @@ const NavBar = ({bg}) => {
         setMenu(!menu)
     }
     return (
-        <div className={`${bg} sticky top-0 left-0 w-full z-[9999]`}>
+        <div className={`${bg} sticky top-0 left-0 w-full z-20`}>
             <div className="container">
                 <div className='flex-1 flex justify-between items-center  '>
-                    <Link className={menu ? "md:block": "hidden md:block"}  href='/my-project/exam-1/agency-app/public'>
+                    <Link className={menu ? "md:block": "hidden md:block"}  href='/'>
                         <Image src="/assets/logo.png" alt="logo" width={176} height={50}/>
                     </Link>
                    <nav className='flex-[2] relative'>
