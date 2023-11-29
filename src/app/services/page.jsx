@@ -6,10 +6,8 @@ import OurServices from "@/components/services/OurServices";
 const Page = () => {
     return (
         <>
-            <ChildHero/>
-            <OurServices/>
-
-
+            <ChildHero heading="Our Services"/>
+            <OurServices />
             <Subscribe/>
         </>
     );

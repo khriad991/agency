@@ -28,14 +28,14 @@ const OurServices =async () => {
                                 <h1 className="heading_1"> {item["title"]}</h1>
                                 <p className="pragraph_1 -mt-2 pb-4">{item["des"]}</p>
 
-                                <div className="flex flex-col w-full gap-y-4  ">
+                                <div className="flex flex-col w-full gap-y-4 -mt-2 ">
                                     <div className="w-1/2 flex justify-between gap-x-4 w-full ">
-                                        <img className="object-cover rounded-lg" src={item["image1"]} width={355}  height={"auto"} alt=""/>
-                                        <img className="object-cover rounded-lg" src={item["image2"]} width={164}  height={164} alt=""/>
+                                        <Image className="object-cover rounded-lg" src={item["image1"]} width={325}  height={150} alt=""/>
+                                        <Image className="object-cover rounded-lg" src={item["image2"]} width={170}  height={150} alt=""/>
                                     </div>
                                     <div className="w-1/2 flex justify-between gap-x-4">
-                                        <Image className="object-cover rounded-lg" src={item["image3"]} width={248}  height={263} alt=""/>
-                                        <Image className="object-cover rounded-lg" src={item["image4"]} width={257}  height={263} alt=""/>
+                                        <Image className="object-cover rounded-lg" src={item["image3"]} width={245}  height={250} alt=""/>
+                                        <Image className="object-cover rounded-lg" src={item["image4"]} width={250}  height={250} alt=""/>
                                     </div>
                                 </div>
                             </div>
