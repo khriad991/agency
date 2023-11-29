@@ -28,6 +28,7 @@ module.exports = {
         green1:"#EAEEF3",
         green2:"#F0FDF4",
         green3:"#20B15A",
+        gray1:"#F8F9FC",
         heading:{
           main:"#1E1F4B",
           second:"#2E3E5C"

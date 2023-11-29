@@ -1,6 +1,7 @@
 import React from 'react';
 import {TbMessageCircleBolt} from "react-icons/tb";
 import Link from "next/link";
+import SectionTitle from "@/components/SectionTitle";
 
 const getData = async () => {
     const res = await fetch(`${process.env.BASEURL}/api/WorkList`)
@@ -16,9 +17,11 @@ const WorkList =async () => {
     return (
         <div className="bg-white py-10 md:py-12 lg:py-16 ">
             <div className="container">
+                <SectionTitle
+                    name="work list"
+                    title="We provide the Perfect Solution to your business growth"
+                />
                 <div className="flex flex-col items-start gap-y-4 ">
-                    <h2 className="title"> work list</h2>
-                    <h1 className="text-2xl font-semibold text-black w-1/3 text-justify block mb-8 ">We provide the Perfect Solution to your business growth</h1>
                     <div className="flex justify-between flex-wrap lg:flex-nowrap items-center">
                         {
                             data.map((item,id)=>(
