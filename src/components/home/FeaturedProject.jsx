@@ -20,16 +20,16 @@ const FeaturedProject = async  () => {
                     name="featured project"
                     title="We provide the Perfect Solution to your business growth"
                 />
-                <div className="flex justify-between flex-wrap lg:flex-nowrap gap-y-8 gap-x-5 mt-4 pt-2 pb-8">
-                    <div className="w-full lg:w-1/2 flex justify-start items-start">
+                <div className="flex justify-between flex-wrap lg:flex-nowrap gap-y-8 mt-4 pt-2 pb-8">
+                    <div className="w-full lg:w-[48%] flex justify-start items-start">
                         <Image className="w-full object-cover w-[600px] h-[530px] rounded-2xl" width={600} height={530} src={data["0"]["image"]} alt=""/>
                     </div>
 
-                    <div className="w-full lg:w-1/2 flex justify-between items-center flex-wrap gap-y-8 gap-x-5 ">
+                    <div className="w-full lg:w-[48%] flex justify-between items-center flex-wrap gap-y-8 gap-x-5 ">
                         {
                             data.map((item, id)=>(
                                 <div key={id} className="w-[47%] flex justify-start flex-col gap-y-4">
-                                    <Image className="object-center rounded-xl" width={280} height={180} src={item["image"]} alt=""/>
+                                    <Image className="object-cover w-full  rounded-xl" width={280} height={180} layout="responsive" src={item["image"]} alt=""/>
                                     <p className="text-sm font-normal text-heading-second">
                                         App Design - {new Date(item?.created_at).toLocaleDateString('en-US', {
                                         year: 'numeric',

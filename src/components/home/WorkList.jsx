@@ -23,10 +23,11 @@ const WorkList =async () => {
                     title="We provide the Perfect Solution to your business growth"
                 />
                 <div className="flex flex-col items-start gap-y-4 ">
-                    <div className="flex justify-between flex-wrap lg:flex-nowrap items-center">
+                    <div className="flex justify-between flex-wrap lg:flex-nowrap items-center gap-y-10">
+
                         {
                             data.map((item,id)=>(
-                                <div key={id} className="w-full md:w-1/2 lg:w-1/3 flex items-start flex-col gap-y-5 p-3">
+                                <div key={id} className="w-full md:w-[48%] lg:w-[32%] flex items-start flex-col gap-y-5 p-3">
                                     <div className="bg-gradient centerFlex p-7 w-[93px] h-[93px] rounded-xl  ">
                                         <TbMessageCircleBolt size={30} className="text-[#130F26] hover:text-green3 myTransition" />
                                     </div>
