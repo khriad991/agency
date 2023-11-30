@@ -9,7 +9,7 @@ const Page = () => {
             <div className="bg-green2 w-full py-20 ">
                 <div className="container py-32 flex justify-center items-center">
 
-                    <h1 className="text-green3 text-3xl font-bold text-center capitalize">Up Soon</h1>
+                    <h1 className="text-green3 text-3xl font-bold text-center capitalize">Up coming</h1>
                 </div>
             </div>
           <Subscribe/>
