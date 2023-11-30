@@ -29,7 +29,7 @@ const FeaturedProject = async  () => {
                         {
                             data.map((item, id)=>(
                                 <div key={id} className="w-[47%] flex justify-start flex-col gap-y-4">
-                                    <Image className="object-center rounded-xl w-[280px] h-[180px]" width={280} height={180} src={item["image"]} alt=""/>
+                                    <Image className="object-center rounded-xl" width={280} height={180} src={item["image"]} alt=""/>
                                     <p className="text-sm font-normal text-heading-second">
                                         App Design - {new Date(item?.created_at).toLocaleDateString('en-US', {
                                         year: 'numeric',
