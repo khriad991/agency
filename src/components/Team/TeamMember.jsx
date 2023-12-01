@@ -38,7 +38,7 @@ const TeamMember = async () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h1 className="text-2xl lg:text-3xl font-semibold text-heading-second text-center py-6   ">{item["name"]}</h1>
+                                <h1 className="text-2xl lg:text-3xl font-semibold text-heading-second text-center py-6">{item["name"]}</h1>
                             </div>
                         ))}
                 </div>
