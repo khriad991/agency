@@ -1,10 +1,11 @@
 import React from 'react';
-import NavBar from "@/components/home/NavBar";
+import Navbar from "@/components/Navbar";
+
 
 const Layout = ({children}) => {
     return (
         <div>
-            <NavBar bg="bg-gray1"/>
+            <Navbar/>
             {children}
         </div>
     );

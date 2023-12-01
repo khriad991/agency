@@ -28,10 +28,9 @@ const Footer = () => {
 
                             </div>
                         </div>
-
                         <div className=" w-full basis-3/12 flex flex-col gap-y-6">
                             <h4 className="text-lg font-semibold font-avenir">quick link</h4>
-                            <Link href="/services " className="text-lg text-[#fff] font-avenir font-medium capitalize hover:text-green3 myTransition ">services</Link>
+                            <Link href="/services" className="text-lg text-[#fff] font-avenir font-medium capitalize hover:text-green3 myTransition ">services</Link>
                             <Link href="#" className="text-lg text-[#fff] font-avenir font-medium capitalize  hover:text-green3 myTransition">About Us </Link>
                             <Link href="#" className="text-lg text-[#fff] font-avenir font-medium capitalize  hover:text-green3 myTransition">Contact Us</Link>
                         </div>

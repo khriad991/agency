@@ -26,7 +26,7 @@ const Hero = async () => {
                             {data["description"]}
                         </p>
 
-                        <button className="btn-green py-4 md:my-4 lg:my-0 px-10 rounded-xl mt-3 w-fit border-2 border-green3 "> Get Started</button>
+                        <button className="btn-green px-10 py-4 my-14 md:my-10 rounded-xl mt-3 w-fit border-2 border-green3 "> Get Started</button>
 
                     </div>
                     <div className="hidden lg:flex lg:flex-[55%] justify-between gap-y-3 flex-wrap flex-col py-8">

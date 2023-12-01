@@ -18,7 +18,10 @@ const NavBar = ({bg}) => {
                         <Image src="/assets/logo.png" alt="logo" width={176} height={50}/>
                     </Link>
                    <nav className='flex-[2] relative'>
-                       <ul className={menu ? "hidden md:flex justify-start md:justify-end items-center flex-col md:flex-row  md:gap-x-[5px] gap-y-3 md:gap-y-0 lg:gap-x-[15px] mt-5 md:mt-0":"md:flex justify-start md:justify-end items-center flex-col md:flex-row md:gap-x-[5px] gap-y-3 md:gap-y-0 lg:gap-x-[15px] mt-5 md:mt-0"}>
+                       <ul className={menu ?
+                               "hidden md:flex justify-start md:justify-end items-center flex-col md:flex-row  md:gap-x-[5px] gap-y-3 md:gap-y-0 lg:gap-x-[15px] mt-5 md:mt-0"
+                               :
+                               "md:flex justify-start md:justify-end items-center flex-col md:flex-row md:gap-x-[5px] gap-y-3 md:gap-y-0 lg:gap-x-[15px] mt-5 md:mt-0"}>
                            <li className='my-3'>
                                <Link className="navLink" href='/'>Home</Link>
                            </li>
@@ -52,7 +55,6 @@ const NavBar = ({bg}) => {
 
                        </button>
                    </nav>
-
                 </div>
 
             </div>
