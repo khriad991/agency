@@ -4,12 +4,12 @@ const Subscribe = () => {
     return (
         <div className="bg-white py-12">
             <div className="container flex justify-center items-center">
-               <div className="centerFlex gap-y-6 flex-col my-8 ">
+               <div className="centerFlex gap-y-6 flex-col my-8 gap-x-4 ">
                    <h4 className="text-xl font-medium uppercase text-green3 ">Subcribe</h4>
                    <h1 className="text-3xl text-black font-semibold text-center w-[495px] px-6 ">Subscribe to get the latest news about us</h1>
-                   <p className="text-center text-[#888888] text-sm font-medium -mt-6 mb-4 "> Please drop your email below to get daily update about what we do</p>
-                   <div className="w-full sm:w-[90%] md:w-[590px] centerFlex relative">
-                       <input type="text"
+                   <p className="text-center text-[#888888] text-sm font-medium -mt-6 mb-4"> Please drop your email below to get daily update about what we do</p>
+                   <div className="w-[85%] mx-auto md:w-[590px] centerFlex relative">
+                       <input type="text w-full"
                            placeholder="Enter your email address"
                            className="w-full py-4 px-6 rounded-lg border-2 border-[#8B8B8B] myTransition  focus:border-[#F55F1D] focus:placeholder:text-[#F55F1D] outline-0 "
                        />
