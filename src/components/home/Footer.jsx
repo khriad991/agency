@@ -13,7 +13,7 @@ const Footer = () => {
                             <h1 className="text-4xl font-bold">web logo</h1>
                             <p className="text-lg font-normal mr-16 text-justify">Some footer text about the  Agency. Just a  little <br/>description to help people understand you better</p>
                             <div className="icon-box flex justify-start items-center gap-x-4">
-                                <Link className="bg-green3 w-10 h-10 centerFlex  rounded-full" href="/">
+                                <Link className="bg-green3 w-10 h-10 centerFlex  rounded-full" href="#">
                                     <FaFacebook className="text-xl bg-transparent text-white font-bold " />
                                 </Link>
                                 <Link className="bg-green3 w-10 h-10 centerFlex  rounded-full" href="#">
