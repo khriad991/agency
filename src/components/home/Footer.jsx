@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Link from "next/link";
 import {FaFacebook, FaLinkedinIn} from "react-icons/fa";
 import {AiFillTwitterCircle} from "react-icons/ai";
@@ -29,20 +29,18 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className=" w-full basis-3/12 flex flex-col gap-y-6">
-                            <h4 className="text-lg font-semibold font-avenir">quick link</h4>
+                            <h4 className="text-lg font-semibold font-avenir capitalize">quick link</h4>
                             <Link href="/services" className="text-lg text-[#fff] font-avenir font-medium capitalize hover:text-green3 myTransition ">services</Link>
                             <Link href="#" className="text-lg text-[#fff] font-avenir font-medium capitalize  hover:text-green3 myTransition">About Us </Link>
                             <Link href="#" className="text-lg text-[#fff] font-avenir font-medium capitalize  hover:text-green3 myTransition">Contact Us</Link>
                         </div>
-
                         <div className=" w-full basis-3/12 flex flex-col gap-y-4">
-                            <h4 className="text-lg font-semibold font-avenir">address</h4>
+                            <h4 className="text-lg font-semibold font-avenir capitalize">address</h4>
                             <p className="text-lg text-[#fff] font-avenir font-medium capitalize ">
                                 Design Agency Head Office <br/>
                                 Airport Road <br/>
                                 United Arab Emirate
                             </p>
-
                         </div>
                     </div>
                 </div>

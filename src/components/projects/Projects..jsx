@@ -8,13 +8,11 @@ const getData =async () => {
         throw new Error("AllProject calling Fail")
     }
     return res.json();
-
 }
 
 const Projects =async () => {
     let  data =await getData();
         data = data.slice(0,6);
-
     return (
         <div className="bg-white py-10">
             <div className="container">
@@ -32,11 +30,7 @@ const Projects =async () => {
                                 </div>
                                 <h1 className="font-semibold text-black text-lg md:text-[26px] text-center">{item["title"]}</h1>
                             </div>
-                        ))
-                    }
-
-
-
+                        ))}
                 </div>
             </div>
         </div>

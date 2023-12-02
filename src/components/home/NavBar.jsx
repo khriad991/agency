@@ -12,16 +12,16 @@ const NavBar = ({bg}) => {
     }
     return (
         <div className={`${bg} sticky top-0 left-0 w-full z-20`}>
-            <div className="container">
-                <div className='flex-1 flex justify-between items-center  '>
+            <div className="container centerFlex">
+                <div className='flex-1 flex justify-between items-center relative '>
                     <Link className={menu ? "md:block": "hidden md:block"}  href='/'>
                         <Image src="/assets/logo.png" alt="logo" width={176} height={50}/>
                     </Link>
-                   <nav className='flex-[2] relative'>
+                   <nav className='flex-[2] '>
                        <ul className={menu ?
-                               "hidden md:flex justify-start md:justify-end items-center flex-col md:flex-row  md:gap-x-[5px] gap-y-3 md:gap-y-0 lg:gap-x-[15px] mt-5 md:mt-0"
+                               "hidden md:flex justify-start md:justify-end items-center flex-col md:flex-row  md:gap-x-[5px] gap-y-3 md:gap-y-0 lg:gap-x-[15px] mb-10 lg:mb-0           "
                                :
-                               "md:flex justify-start md:justify-end items-center flex-col md:flex-row md:gap-x-[5px] gap-y-3 md:gap-y-0 lg:gap-x-[15px] mt-5 md:mt-0"}>
+                               "md:flex justify-start md:justify-end items-center flex-col md:flex-row md:gap-x-[5px] gap-y-3 md:gap-y-0 lg:gap-x-[15px] mt-5 lg:mb-0  "}>
                            <li className='my-3'>
                                <Link className="navLink" href='/'>Home</Link>
                            </li>
@@ -48,13 +48,13 @@ const NavBar = ({bg}) => {
                                </Link>
                            </li>
                        </ul>
-                       <button onClick={handleMenu} className={menu ? "md:hidden absolute -top-3 right-2 indent-10" :"md:hidden absolute top-3 right-2 indent-10" }>
-                           {
-                               menu ? <LuMenu className="text-black hover:text-green3" size={30}/> :<AiOutlineClose className="text-black hover:text-green3" size={30} />
-                           }
-
-                       </button>
                    </nav>
+                    <button onClick={handleMenu} className={menu ? "flex-1 md:hidden absolute top-3 right-0 indent-10" :"md:hidden absolute top-3 right-2 indent-10" }>
+                        {
+                            menu ? <LuMenu className="text-black hover:text-green3" size={30}/> :<AiOutlineClose className="text-black hover:text-green3" size={30} />
+                        }
+
+                    </button>
                 </div>
 
             </div>
