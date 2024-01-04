@@ -13,7 +13,7 @@ body {
 }
 @layer base{
     .navLink{
-        @apply font-medium text-black capitalize hover:text-green3 text-base transition-all duration-300 px-4 py-2
+        @apply font-medium text-black capitalize hover:text-green3 text-base transition-all duration-300  lg:mx-2 xl:mx-5 px-3  py-2
     }
     .btn-green{
         @apply bg-green3 hover:bg-white text-white hover:text-green3 text-base font-medium capitalize px-6 py-2 rounded-md transition-all duration-300

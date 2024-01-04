@@ -14,10 +14,11 @@ const NavBar = ({bg}) => {
         <div className={`${bg} sticky top-0 left-0 w-full z-20`}>
             <div className="container centerFlex">
                 <div className='flex-1 flex justify-between items-center relative '>
-                    <Link className={menu ? "md:block": "hidden md:block"}  href='/'>
-                        <Image src="/assets/logo.png" alt="logo" width={176} height={50}/>
+                    <Link className={menu ? "md:block w-full": "hidden md:block w-full"}  href='/'>
+                        <Image src="/assets/logo.png" className='object-center overflow-hidden' alt="logo" width={176} height={50} responsive />
+                        {/*<img src="/assets/logo.png" className='object-center w-[170px] h-[50]' alt=""/>*/}
                     </Link>
-                   <nav className='flex-[2] '>
+                   <nav className='flex-[2]'>
                        <ul className={menu ?
                                "hidden md:flex justify-start md:justify-end items-center flex-col md:flex-row  md:gap-x-[5px] gap-y-3 md:gap-y-0 lg:gap-x-[15px] mb-10 lg:mb-0           "
                                :
@@ -39,7 +40,7 @@ const NavBar = ({bg}) => {
                            </li>
                            <li className='my3 md:mr-3'>
                                <Link href='/login'>
-                                   <button className="btn-white " >Login</button>
+                                   <button className="btn-white md:px-9 lg:px-10 " >Login</button>
                                </Link>
                            </li>
                            <li className='my-3'>
