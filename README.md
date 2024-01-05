@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-### Click the Link show the application [**Live Link**](https://agency-ruby.vercel.app/) On your browser to see the result.
+### Click the Link show the application [**Live Link**](https://my-agency-sigma.vercel.app/) On your browser to see the result.
 
 ### **Assignment 1 : is Creating a Agency Web Application**
 
@@ -60,28 +60,23 @@ bun dev
 
 10. **Other sections on Service Page will be static.**
 
-
-    - Other [ NavBar , footer & Subscribe ] Section data is static
+    -   Other [ NavBar , footer & Subscribe ] Section data is static
 
 11. **AllProject data will come dynamically on the Project Page**
 
-
-    - AllProject Section data is Dynamic
+    -   AllProject Section data is Dynamic
 
 12. **Other sections on the Project Page will be static.**
 
-
-    - Other [ NavBar , footer & Subscribe ] Section data is static
+    -   Other [ NavBar , footer & Subscribe ] Section data is static
 
 13. **The TestimonialList data will come dynamically on the Testimonial Page.**
 
-
-    -  TestimonialList Section data is Dynamic
+    -   TestimonialList Section data is Dynamic
 
 14. **Other sections on the Testimonial Page will be static.**
 
-
-    -  Other [ NavBar , footer & Subscribe ] Section data is static
+    -   Other [ NavBar , footer & Subscribe ] Section data is static
 
 ### !! Responsive in as home page Team page are responsive
 
