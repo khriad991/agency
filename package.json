@@ -9,11 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
-<<<<<<< HEAD
-        "next": "14.0.4",
-=======
         "next": "14.0.3",
->>>>>>> e7a472d94939f6a83d73d33aacfac5fad67d3deb
         "next-router-mock": "^0.9.10",
         "nextjs-toploader": "^1.6.4",
         "react": "^18",
